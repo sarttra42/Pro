@@ -13,3 +13,7 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
+
+mix.sourceMaps()
+   .js('node_modules/popper.js/dist/popper.js', 'public/js').sourceMaps()
+   //.css('node_modules/admin-lte/dist/css/adminlte.css.map','public/css').sourceMaps();
