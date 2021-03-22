@@ -93,14 +93,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <router-link to="/student" class="nav-link">
                   <i class="fa fa-circle  nav-icon" aria-hidden="true"></i>
-                  <p>รายชื่อนักศึกษา</p>
+                  <p>นักศึกษา</p>
                 </router-link>
               </li>
 
               <li class="nav-item">
                 <router-link to="/activity" class="nav-link">
                   <i class="fa fa-circle  nav-icon" aria-hidden=""></i>
-                  <p>รายชื่อกิจกรรม</p>
+                  <p>กิจกรรม</p>
                 </router-link>
               </li>
             </ul>
